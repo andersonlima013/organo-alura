@@ -1,6 +1,10 @@
+import './Banner.css'
+
 function Banner() {
     return (
-        <img src="/imagens/banner.png" alt="Banner organo"/>
+        <header className="banner">
+            <img src="/imagens/banner.png" alt="Banner organo"/>
+        </header>
     )
 
 }
